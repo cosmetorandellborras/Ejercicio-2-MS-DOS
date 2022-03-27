@@ -62,3 +62,42 @@ vista lógico el control es del usuario"
         1 archivo(s) copiado(s).
 
 ~~~
+2. Copia el archivo EJER.TXT en AGENDA
+~~~
+C:\Users\cosmetorandell\Desktop\D\apli\word\textos>copy ejer.txt c:\Users\cosmetorandell\Desktop\D\varios\agenda
+~~~
+3. Borra el archivo almacenado en la carpeta TEXTOS
+~~~
+C:\Users\cosmetorandell\Desktop\D\apli\word\textos>del ejer.txt
+~~~
+4. Añade el siguiente párrafo al archivo EJER.TXT
+>“Cada archivo tiene un nombre y una extensión que los distingue del resto de archivos”
+~~~
+C:\Users\cosmetorandell\Desktop\D\varios\agenda>notepad ejer.txt
+~~~
+5. Copia el archivo EJER.TXT en la carpeta BASIC
+~~~
+C:\Users\cosmetorandell\Desktop\D\varios\agenda>copy ejer.txt c:\Users\cosmetorandell\Desktop\D\prog\basic
+~~~
+6. Cambia el nombre del archivo almacenado en AGENDA por FICHERO.TXT
+~~~
+C:\Users\cosmetorandell\Desktop\D\varios\agenda>ren ejer.txt fichero.txt
+~~~
+7. Mueve el archivo FICHERO.TXT a la carpeta BASIC
+~~~
+C:\Users\cosmetorandell\Desktop\D\varios\agenda>move fichero.txt c:\Users\cosmetorandell\Desktop\D\prog\basic
+~~~
+8. Abre el archivo EJER.TXT y borra la primera frase; almacena el nuevo archivo con el nombre NUEVO.TXT dentro de la carpeta BASIC
+~~~
+C:\Users\cosmetorandell\Desktop\D\prog\basic>notepad ejer.txt
+~~~
+9. Copia el archivo NUEVO.TXT en la carpeta NOTAS
+~~~
+C:\Users\cosmetorandell\Desktop\D\prog\basic>copy nuevo.txt c:\Users\cosmetorandell\Desktop\D\apli\word\notas
+~~~
+10. ¿Cuántos archivos hay en la carpeta BASIC? ¿Y en NOTAS?
+3 archivos en la carpeta basic y 1 archivo en la carpeta notas
+## Ejercicio 3
+
+
+
