@@ -99,6 +99,28 @@ C:\Users\cosmetorandell\Desktop\D\prog\basic>copy nuevo.txt c:\Users\cosmetorand
 
 3 archivos en la carpeta basic y 1 archivo en la carpeta notas
 ## Ejercicio 3
+1. Borra la carpeta ACCESS y en su lugar crea una nueva carpeta llamada ASTRO 
+~~~
+C:\Users\cosmetorandell\Desktop\D\apli>rmdir /s c:\Users\cosmetorandell\Desktop\D\apli\access
+C:\Users\cosmetorandell\Desktop\D\apli>md astro
+~~~
+2. Crea la siguiente estructura de subcarpetas dentro de la carpeta ASTRO
+
+3. Sitúate en la carpeta CIENCIA y desde allí muestra el listado de archivos y subcarpetas de la carpeta HISTORIA
+
+4. Utilizando el editor de MS-DOS crea el siguiente archivo de texto y guárdalo con el nombre TYCHO.TXT dentro de la carpeta DATOS1
+
+5. Utilizando de nuevo el editor de textos de MS-DOS crea el siguiente archivo de texto, y guárdalo con el nombre KEPLER.TXT dentro de la carpeta DATOS2
+
+6. Copia los archivos TYCHO.TXT y KEPLER.TXT en la carpeta CIENCIA
+
+7. Cambia de lugar los archivos almacenados en DATOS1 y DATOS2 de forma que TYCHO.TXT quede guardado dentro DATOS2 y KEPLER.TXT en DATOS1
+
+8. Crea un nuevo archivo formado por la unión de los dos anteriores (sin volver a escribir el texto) y guárdalo dentro de la carpeta HISTORIA con el nombre TOTAL.TXT
+
+9. Abre el archivo KEPLER.TXT almacenado en la carpeta CIENCIA y añade el siguiente texto:
+
+10. Cambia el nombre del archivo anterior por el de GALILEO.TXT
 
 
 
