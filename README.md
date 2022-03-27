@@ -104,23 +104,61 @@ C:\Users\cosmetorandell\Desktop\D\prog\basic>copy nuevo.txt c:\Users\cosmetorand
 C:\Users\cosmetorandell\Desktop\D\apli>rmdir /s c:\Users\cosmetorandell\Desktop\D\apli\access
 C:\Users\cosmetorandell\Desktop\D\apli>md astro
 ~~~
-2. Crea la siguiente estructura de subcarpetas dentro de la carpeta ASTRO
-
+2. Crea la siguiente estructura de subcarpetas dentro de la carpeta ASTRO:
+![Estructura2](https://github.com/cosmetorandellborras/Ejercicio-2-MS-DOS/blob/main/e2.png)
+~~~
+C:\Users\cosmetorandell\Desktop\D\apli>cd astro
+C:\Users\cosmetorandell\Desktop\D\apli\astro>md historia ciencia
+C:\Users\cosmetorandell\Desktop\D\apli\astro>cd historia
+C:\Users\cosmetorandell\Desktop\D\apli\astro\historia>md datos1 datos2
+C:\Users\cosmetorandell\Desktop\D\apli\astro\historia>cd ..
+C:\Users\cosmetorandell\Desktop\D\apli\astro>cd ciencia
+C:\Users\cosmetorandell\Desktop\D\apli\astro\ciencia>md astro1 astro2
+~~~
 3. Sitúate en la carpeta CIENCIA y desde allí muestra el listado de archivos y subcarpetas de la carpeta HISTORIA
-
+~~~
+C:\Users\cosmetorandell\Desktop\D\apli\astro\ciencia>dir c:\Users\cosmetorandell\Desktop\D\apli\astro\historia
+~~~
 4. Utilizando el editor de MS-DOS crea el siguiente archivo de texto y guárdalo con el nombre TYCHO.TXT dentro de la carpeta DATOS1
-
+>“La importancia de Tycho Brahe (1546-1601) es debida a sus trabajos observacionales, que registraron posiciones notables del Sol, la Luna y los planetas”
+~~~
+C:\Users\cosmetorandell\Desktop\D\apli\astro\historia\datos1>copy con tycho.txt
+"La importancia de Tycho Brahe (1546-1601) es debida a sus trabajos observacionales, que registraron posiciones notables del Sol, la Luna y los planetas"^Z
+        1 archivo(s) copiado(s).
+~~~
 5. Utilizando de nuevo el editor de textos de MS-DOS crea el siguiente archivo de texto, y guárdalo con el nombre KEPLER.TXT dentro de la carpeta DATOS2
+>“ La información acumulada facilitó a Johannes Kepler (1571-1630) el descubrimiento de las leyes que gobiernan el movimiento de los planetas”
+~~~
+C:\Users\cosmetorandell\Desktop\D\apli\astro\historia\datos2>copy con kepler.txt
+" La información acumulada facilitó a Johannes Kepler (1571-1630) el descubrimiento de las leyes que gobiernan el movimiento de los planetas"^Z
+        1 archivo(s) copiado(s).
 
+~~~
 6. Copia los archivos TYCHO.TXT y KEPLER.TXT en la carpeta CIENCIA
-
+~~~
+C:\Users\cosmetorandell\Desktop\D\apli\astro\ciencia>copy c:\Users\cosmetorandell\Desktop\D\apli\astro\historia\datos1\tycho.txt c:\Users\cosmetorandell\Desktop\D\apli\astro\ciencia
+___
+C:\Users\cosmetorandell\Desktop\D\apli\astro\ciencia>copy c:\Users\cosmetorandell\Desktop\D\apli\astro\historia\datos2\kepler.txt c:\Users\cosmetorandell\Desktop\D\apli\astro\ciencia
+~~~
 7. Cambia de lugar los archivos almacenados en DATOS1 y DATOS2 de forma que TYCHO.TXT quede guardado dentro DATOS2 y KEPLER.TXT en DATOS1
-
+~~~
+C:\Users\cosmetorandell\Desktop\D\apli\astro\ciencia>move c:\Users\cosmetorandell\Desktop\D\apli\astro\historia\datos1\tycho.txt c:\Users\cosmetorandell\Desktop\D\apli\astro\historia\datos2
+___
+C:\Users\cosmetorandell\Desktop\D\apli\astro\ciencia>move c:\Users\cosmetorandell\Desktop\D\apli\astro\historia\datos2\kepler.txt c:\Users\cosmetorandell\Desktop\D\apli\astro\historia\datos1 
+~~~
 8. Crea un nuevo archivo formado por la unión de los dos anteriores (sin volver a escribir el texto) y guárdalo dentro de la carpeta HISTORIA con el nombre TOTAL.TXT
-
+~~~
+C:\Users\cosmetorandell\Desktop\D>copy .\apli\astro\historia\datos1\kepler.txt + .\apli\astro\historia\datos2\tycho.txt .\apli\astro\historia\total.txt
+~~~
 9. Abre el archivo KEPLER.TXT almacenado en la carpeta CIENCIA y añade el siguiente texto:
-
+>“Kepler aplicó sus teorías a los satélites de Júpiter, descubiertos por Galileo a través de un pequeño telescopio, cuya introducción en la observación astronómica constituye uno de los hitos de la astronomía.”
+~~~
+C:\Users\cosmetorandell\Desktop\D\apli\astro\ciencia>notepad c:\Users\cosmetorandell\Desktop\D\apli\astro\ciencia\kepler.txt
+~~~
 10. Cambia el nombre del archivo anterior por el de GALILEO.TXT
-
+~~~
+C:\Users\cosmetorandell\Desktop\D\apli\astro\ciencia>ren C:\Users\cosmetorandell\Desktop\D\apli\astro\ciencia\kepler.txt galileo.txt
+~~~
+## Ejercicio 4
 
 
