@@ -60,7 +60,6 @@ C:\Users\cosmetorandell\Desktop\D\apli\word\textos>copy con ejer.txt
 vista lógico el control es del usuario"
 ^Z
         1 archivo(s) copiado(s).
-
 ~~~
 2. Copia el archivo EJER.TXT en AGENDA
 ~~~
@@ -132,7 +131,6 @@ C:\Users\cosmetorandell\Desktop\D\apli\astro\historia\datos1>copy con tycho.txt
 C:\Users\cosmetorandell\Desktop\D\apli\astro\historia\datos2>copy con kepler.txt
 " La información acumulada facilitó a Johannes Kepler (1571-1630) el descubrimiento de las leyes que gobiernan el movimiento de los planetas"^Z
         1 archivo(s) copiado(s).
-
 ~~~
 6. Copia los archivos TYCHO.TXT y KEPLER.TXT en la carpeta CIENCIA
 ~~~
