@@ -8,6 +8,8 @@ Los objetivos de esta práctica son realizar una serie de ejercicios básicos de
 ![Comandos](https://github.com/cosmetorandellborras/Ejercicio-2-MS-DOS/blob/main/Cap%201.png)
 
 2.Sitúate en la carpeta TABLAS
-    c:\Users\cosmetorandell\Desktop\D> cd apli\excel\tablas
+~~~
+c:\Users\cosmetorandell\Desktop\D> cd apli\excel\tablas
+~~~
 3. Vuelve a la carpeta raíz
     
