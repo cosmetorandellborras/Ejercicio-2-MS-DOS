@@ -96,6 +96,7 @@ C:\Users\cosmetorandell\Desktop\D\prog\basic>notepad ejer.txt
 C:\Users\cosmetorandell\Desktop\D\prog\basic>copy nuevo.txt c:\Users\cosmetorandell\Desktop\D\apli\word\notas
 ~~~
 10. ¿Cuántos archivos hay en la carpeta BASIC? ¿Y en NOTAS?
+
 3 archivos en la carpeta basic y 1 archivo en la carpeta notas
 ## Ejercicio 3
 
