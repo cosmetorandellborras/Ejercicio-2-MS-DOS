@@ -51,3 +51,14 @@ C:\Users\cosmetorandell\Desktop\D>md nuevo
 ~~~
 C:\Users\cosmetorandell\Desktop\D\varios\pract>dir c:\Users\cosmetorandell\Desktop\D\apli\word
 ~~~
+## Ejercicio 2
+1. Utilizando el editor de textos de MS-DOS, crea un archivo de texto denominado EJER.TXT, con el siguiente contenido, y almacénalo dentro de la carpeta TEXTOS (dentro de la estructura del ejercicio anterior):
+>“La información dentro de los discos se almacena en forma de archivos. Un archivo o fichero es un conjunto de datos que MS-DOS almacena en un disco y cuyo control interno es realizado por el sistema operativo, aunque desde el punto de vista lógico el control es del usuario”
+~~~
+C:\Users\cosmetorandell\Desktop\D\apli\word\textos>copy con ejer.txt
+"La información dentro de los discos se almacena en forma de archivos. Un archivo o fichero es un conjunto de datos que MS-DOS almacena en un disco y cuyo control interno es realizado por el sistema operativo, aunque desde el punto de
+vista lógico el control es del usuario"
+^Z
+        1 archivo(s) copiado(s).
+
+~~~
