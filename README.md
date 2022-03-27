@@ -12,4 +12,15 @@ Los objetivos de esta práctica son realizar una serie de ejercicios básicos de
 c:\Users\cosmetorandell\Desktop\D> cd apli\excel\tablas
 ~~~
 3. Vuelve a la carpeta raíz
+~~~
+c:\Users\cosmetorandell\Desktop\D\apli\excel\tablas> cd\
+~~~
+4. Muestra el contenido de la carpeta PROG
+~~~
+C:\Users\cosmetorandell\Desktop\D>dir prog
+~~~
+5. Borra la carpeta PASCAL
+~~~
+C:\Users\cosmetorandell\Desktop\D\prog>rmdir pascal
+~~~
     
